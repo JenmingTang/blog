@@ -17,9 +17,15 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '18'
+      - name: mirror set
+        run: npm config set registry http://mirrors.cloud.tencent.com/npm/
+
+
       - name: i
         # install in your project
         run: npm install -D vuepress@next
+        
+        
       #- name: npm i
         #run: npm i
       - name: Build
