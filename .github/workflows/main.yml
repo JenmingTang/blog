@@ -34,7 +34,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.ACCESS_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: .vuepress/dist
           #这个 peaceiris action 默认会将构建的静态文件部署到 gh-pages 分支上，这里不设置也行
           publish_branch: gh-pages
