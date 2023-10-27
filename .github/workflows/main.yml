@@ -25,9 +25,9 @@ jobs:
         # install in your project
         run: npm install -D vuepress@next
         
-        
-      #- name: npm i
-        #run: npm i
+      #安装了才有 node_module 不然构建出来没有样式，我在 .gitignore 已将 node_module 排除了
+      - name: npm i
+        run: npm i
       - name: Build
         run: npx vuepress build
 
