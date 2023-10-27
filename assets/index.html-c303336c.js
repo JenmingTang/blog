@@ -1,1 +1,0 @@
-import{_ as t,o as c,c as o,a as e,b as a,e as r}from"./app-06860f67.js";const n={},s=a("h1",{id:"尚未实现",tabindex:"-1"},[a("a",{class:"header-anchor",href:"#尚未实现","aria-hidden":"true"},"#"),r(" 尚未实现")],-1);function d(i,_){return c(),o("div",null,[s,e(" # :tada: "),e(" ![](/image/Microsoft.png) ")])}const f=t(n,[["render",d],["__file","index.html.vue"]]);export{f as default};
