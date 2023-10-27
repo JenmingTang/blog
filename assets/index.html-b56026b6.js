@@ -1,0 +1,1 @@
+import{_ as t,o as c,c as n,a as e}from"./app-06860f67.js";const o={};function a(r,_){return c(),n("div",null,[e(" # :tada: "),e(" ![](/image/Microsoft.png) ")])}const i=t(o,[["render",a],["__file","index.html.vue"]]);export{i as default};
