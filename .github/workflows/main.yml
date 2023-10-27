@@ -17,9 +17,9 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '18'
-      #- name: i
+      - name: i
         # install in your project
-       # run: npm install -D vuepress@next
+        run: npm install -D vuepress@next
       #- name: npm i
         #run: npm i
       - name: Build
