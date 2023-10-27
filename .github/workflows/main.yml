@@ -17,12 +17,9 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '14'
-
-      - name: Install dependencies
-        run: npm ci
-
+      
       - name: Build
-        run: npm run build
+        run: npx vuepress build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
