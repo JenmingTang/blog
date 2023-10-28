@@ -145,7 +145,7 @@ export default defineUserConfig({
     /* 
     你的网站部署到 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/"
     */
-    // base: "/tang/",
+    base: "/blog/",
     host: "0.0.0.0",
     port: 8080
 })
