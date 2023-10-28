@@ -17,8 +17,8 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '18'
-      - name: mirror set
-        run: npm config set registry http://mirrors.cloud.tencent.com/npm/
+      # - name: mirror set
+      #   run: npm config set registry http://mirrors.cloud.tencent.com/npm/
 
 
       - name: i
@@ -26,8 +26,8 @@ jobs:
         run: npm install -D vuepress@next
         
       #安装了才有 node_module 不然构建出来没有样式，我在 .gitignore 已将 node_module 排除了
-      - name: npm i
-        run: npm i
+      # - name: npm i
+      #   run: npm i
       - name: Build
         run: npx vuepress build
 
