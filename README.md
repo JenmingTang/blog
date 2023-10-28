@@ -19,6 +19,15 @@ actions:
   - text: VuePress
     link: /vue-press/
     type: secondary
+  - text: Microsoft Activation Scripts
+    link: /activation/
+    type: primary
+  - text: Markdown
+    link: /vue-press/md
+    type: secondary
+  - text: Todo
+    link: /todo/
+    type: primary
 
 features:
   - title: 简洁至上

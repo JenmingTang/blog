@@ -49,7 +49,8 @@ export default defineUserConfig({
         按照 `organization/repository` 的格式，将跳转
         https://github.com/vuejs/vuepress
         */
-        repo: 'vuejs/vuepress',
+        // repo: 'vuejs/vuepress',
+        repo: 'JenmingTang/blog',
         repoLabel: "Jenming",
         // Public 文件路径
         // logo: '/images/hero.png',
@@ -102,6 +103,32 @@ export default defineUserConfig({
                                 text: 'VuePress',
                                 link: '/vue-press/',
                                 activeMatch: '^/vue-press/',
+                            },
+                        ],
+                    },
+                    
+                    {
+                        text: 'SubGroup 2',
+                        children: [
+                            {
+                                text: 'Microsoft Activation Scripts',
+                                link: '/activation/',
+                                // 该元素将一直处于激活状态
+                                // activeMatch: '/'
+                                
+                                // 该元素在当前路由路径是 /foo/ 开头时激活
+                                // 支持正则表达式
+                                activeMatch: '^/activation/',
+                            },
+                            {
+                                text: 'Markdown',
+                                link: '/vue-press/md',
+                                activeMatch: '^/vue-press/md',
+                            },
+                            {
+                                text: 'Todo',
+                                link: '/todo/',
+                                activeMatch: '^/todo/',
                             },
                         ],
                     },
